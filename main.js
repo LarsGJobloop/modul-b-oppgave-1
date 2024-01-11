@@ -87,7 +87,31 @@ Try out a few of the operators we looked at (+, -, /, *)
 as well as a few of the shorthand operators (++, --, +=, -=)
 ******************************************************************************/
 
-//your code here
+// Addition operator
+const sum = 4 + 4 // Numerical addition
+const greeting = "Greeting" + " " + "Padawan" // String concatonation
+
+const difference = 30 - 20 // Subtraction
+const fraction = 2 / 3 // Division
+const area = 10 * 40 // Mutliplaction
+
+let x = 10
+console.log(x)
+x = x + 10
+console.log(x)
+x += 5
+console.log(x)
+x++
+console.log(x)
+
+let y = 10
+console.log(y)
+y = y - 10
+console.log(y)
+y -= 5
+console.log(y)
+y--
+console.log(y)
 
 /****************************************************************************** 
 ASSIGNMENT 4
