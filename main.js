@@ -96,22 +96,22 @@ const fraction = 2 / 3 // Division
 const area = 10 * 40 // Mutliplaction
 
 let x = 10
-console.log(x)
 x = x + 10
-console.log(x)
 x += 5
-console.log(x)
 x++
-console.log(x)
 
 let y = 10
-console.log(y)
 y = y - 10
-console.log(y)
 y -= 5
-console.log(y)
 y--
-console.log(y)
+
+// Bonus Operators
+
+// Exponent
+const kubed = 100 ** 3 // 100 * 100 * 100
+
+const rest = 10 % 3 // 10 - 3 * 3
+console.log(rest)
 
 /****************************************************************************** 
 ASSIGNMENT 4
