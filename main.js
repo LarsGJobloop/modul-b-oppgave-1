@@ -137,7 +137,33 @@ let userIsLoggedIn = false;
 let userIsBlocked = false;
 let goToPage = "";
 
-//your code here
+const userNameNotEmpty = userName !== ""
+const userIsOfLegalAge = userAge >= 18
+const userIsUnblocked = !userIsBlocked
+
+const isAllowed = userNameNotEmpty && userIsOfLegalAge && userIsUnblocked
+
+if (isAllowed) {
+  // This should be done if everyting is correct
+  userIsLoggedIn = true
+  goToPage = "/home"
+  console.log(`Welcome user ${userName}`)
+} else {
+  // This should be done if any is wrong
+  console.log("Error you are not allowed in here")
+
+  if (!userNameNotEmpty) {
+    console.log("Username is empty")
+  }
+
+  if (!userIsOfLegalAge) {
+    console.log("You are not old enough")
+  }
+
+  if (!userIsUnblocked) {
+    console.log("We dont want you here")
+  }
+}
 
 /******************************************************************************
 ASSIGNMENT 5
