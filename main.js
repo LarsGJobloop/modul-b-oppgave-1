@@ -32,7 +32,7 @@ Try to use both the let and const keywords
 
 // boolean
 let isTrue = true
-const isFalse = falses
+const isFalse = false
 
 // number
 let a = 10
@@ -58,6 +58,27 @@ const weekdays = [
   "Sunday",
 ]
 
+// Other Types
+
+// Null
+/**
+ * This is a data type which we should contain some value in the future
+ */
+const notYetAValue = null
+
+// Undefined
+let IamNotDefined
+console.log(IamNotDefined)
+
+// Objects
+/**
+ * These collections of data
+ */
+const person = {
+  name: "Lars",
+  age: 34,
+  role: "teacher"
+}
 
 /****************************************************************************** 
 ASSIGNMENT 3
