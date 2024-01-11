@@ -30,7 +30,34 @@ You can choose what the actual content is.
 Try to use both the let and const keywords
 ******************************************************************************/
 
-//your code here
+// boolean
+let isTrue = true
+const isFalse = falses
+
+// number
+let a = 10
+const b = 32
+
+// String
+const firstName = "Lars"
+const middleName = 'Gunnar'
+const templateLiteral = `${firstName} ${middleName}`// Template Literal
+const stringConcatonation = firstName + " " + middleName
+
+console.log(templateLiteral)
+console.log(stringConcatonation)
+
+// Array (lists)
+const weekdays = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+]
+
 
 /****************************************************************************** 
 ASSIGNMENT 3
