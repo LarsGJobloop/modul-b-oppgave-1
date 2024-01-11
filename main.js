@@ -180,4 +180,16 @@ to see that your conditional is working.
 
 const userMale = false;
 
-//your code here
+// This do work
+let userTitleA
+
+if (userMale) {
+  userTitleA = "Mr"
+} else {
+  userTitleA = "Mrs"
+}
+
+// Ternary operator
+const userTitleB = userMale ? "Mr" : "Mrs"
+
+console.log(userTitleB)
