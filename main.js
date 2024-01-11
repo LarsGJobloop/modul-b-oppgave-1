@@ -18,6 +18,8 @@ using one of the methods I showed in the first lecture.
 javascript.js
 ******************************************************************************/
 
+console.log("Its alive!!")
+
 /****************************************************************************** 
 ASSIGNMENT 2
 
